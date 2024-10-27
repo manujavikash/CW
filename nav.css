@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster&family=Oswald:wght@200..700&display=swap");
+.txt {
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0%;
+  font-size: 40px;
+  font-family: cinzel;
+  display: flex;
+}
+nav {
+  background-color: rgb(57, 59, 60, 0.99);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+#navlist li {
+  display: inline;
+  padding: 5px;
+  margin: 10px;
+}
+ul a {
+  color: brown;
+  background-color: #262728;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: oswald;
+}
+ul a:hover {
+  color: white;
+  transition: 0.5s;
+  background-color: brown;
+}
+nav a.active {
+  color: black;
+}
