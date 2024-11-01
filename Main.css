@@ -78,24 +78,6 @@ body {
 .social a span {
   color: white;
 }
-.box h2 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.box content {
-  margin: 20px 0 0 0;
-  position: relative;
-}
-.first .content p {
-  text-align: justify;
-}
-.first .content .social {
-  margin: 20px 0 0 0;
-}
-.first .content .social a {
-  padding: 0 2px;
-}
 .first .content .social a span {
   height: 40px;
   width: 40px;
