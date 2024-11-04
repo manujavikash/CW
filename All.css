@@ -516,3 +516,11 @@ textarea {
   color: white;
   transform: rotateY(180deg);
 }
+
+.card-p {
+  width: 80%;
+  height: 40%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
