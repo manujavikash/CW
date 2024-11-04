@@ -599,11 +599,11 @@ select {
 }
 /* Validity pseudo class */
 input:valid {
-  border: 3px solid green; /* Green border if the input is valid */
+  border: 3px solid green;
 }
 
 input:invalid {
-  border: 2px solid red; /* Red border if the input is invalid */
+  border: 2px solid red;
 }
 input[type="submit"] {
   width: 100%;
