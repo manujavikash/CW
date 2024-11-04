@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 body {
-  background-color: black;
+  background-color: #0a2351;
   animation-name: anime;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -25,6 +25,19 @@ body {
     opacity: 100%;
     transform: skewX(0deg, 0deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #254077;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6699cc;
 }
 
 .content-container {
@@ -134,7 +147,7 @@ body {
 }
 
 .flip-card-back {
-  background-color: rgb(16, 16, 16);
+  background-color: #6699cc;
   color: white;
   transform: rotateY(180deg);
 }
@@ -155,7 +168,7 @@ body {
   font-size: 20px;
   text-align: justify;
   margin-top: 5rem;
-  background-color: bisque;
+  background-color: #6699cc;
   color: black;
   border-radius: 3em;
   display: inline-block;
@@ -171,6 +184,7 @@ body {
 .uldot {
   margin-left: 10px;
   margin-top: 10px;
+  display: grid;
 }
 
 @media screen and (max-width: 900px) {

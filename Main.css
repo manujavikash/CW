@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0%;
   padding: 0;
@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 body {
-  background-color: black;
+  background-color: #0a2351;
   animation-name: anime1;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
@@ -31,22 +31,31 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: red;
+  background: #254077;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(56, 18, 18);
+  background: #6699cc;
 }
+/* .both {
+  display: flex;
+  justify-content: space-between;
+} */
 .txtt {
-  color: aliceblue;
-  margin-top: 250px;
+  color: #6699cc;
+  margin-top: 100px;
   text-align: start;
   margin-left: 1em;
-  font-size: 30px;
+  font-size: 35px;
   font-family: sans-serif;
 }
+/* .img {
+  position: relative;
+  margin-right: 1rem;
+  margin-top: 1rem;
+} */
 #cards {
   text-align: left;
   margin-left: 6rem;
@@ -54,47 +63,52 @@ body {
 .card {
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.397);
   transition: 0.3s;
-  width: 30%;
+  width: 40%;
   height: 20%;
   font-size: 20px;
   text-align: justify;
+  font-family: poppins, sans-serif;
   margin-top: 50px;
   /* background-color: bisque; */
   color: white;
   border-radius: 1em;
   display: inline-block;
-  gap: 2em;
+  /* gap: 2em; */
   margin-bottom: 100px;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(248, 236, 236, 0.529);
+  cursor: context-menu;
 }
 
 .container {
   padding: 20px;
 }
-
+.social {
+  text-align: center;
+}
 .social a span {
   color: white;
 }
-.content {
+/* .content {
   margin-left: 10px;
-}
+} */
 
 .first .content .social a span {
   height: 50px;
   width: 50px;
-  background: #1a1a1a;
+  background: #6699cc;
   line-height: 50px;
   text-align: center;
   font-size: 22px;
   border-radius: 5px;
   transition: 0.8s;
+  margin: 1rem;
 }
 .first .content .social a span:hover {
   background: white;
-  color: black;
+  color: #0a2351;
 }
 
 @media screen and (max-width: 900px) {

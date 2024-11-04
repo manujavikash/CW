@@ -9,7 +9,7 @@
   display: flex;
 }
 nav {
-  background-color: rgb(57, 59, 60, 0.99);
+  background-color: rgb(102, 153, 204, 0.98);
   backdrop-filter: blur(10px);
   padding: 10px;
   position: fixed;
@@ -31,17 +31,18 @@ ul {
   margin: 10px;
 }
 ul a {
-  color: brown;
-  background-color: #262728;
+  color: #0a2351;
+  background-color: white;
   padding: 8px;
   border-radius: 5px;
   font-family: oswald;
+  text-transform: uppercase;
 }
 ul a:hover {
   color: white;
   transition: 0.5s;
-  background-color: brown;
+  background-color: #0a2351;
 }
 nav a.active {
-  color: black;
+  color: #3e72d1d4;
 }
