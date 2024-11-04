@@ -166,6 +166,14 @@ ul a {
   font-family: oswald;
   text-transform: uppercase;
 }
+ul a::after {
+  background-color: red;
+}
+ul a:focus {
+  outline: 2px solid #f0c040; /* Add focus outline */
+  background-color: rgba(240, 192, 64, 0.2); /* Light background on focus */
+}
+
 ul a:hover {
   color: white;
   transition: 0.5s;
@@ -589,6 +597,14 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+/* Validity pseudo class */
+input:valid {
+  border: 3px solid green; /* Green border if the input is valid */
+}
+
+input:invalid {
+  border: 2px solid red; /* Red border if the input is invalid */
+}
 input[type="submit"] {
   width: 100%;
   background-color: #002ec6;
@@ -618,25 +634,4 @@ input[type="submit"]:hover {
   width: 80%;
   margin-left: 9em;
   margin-bottom: 11em;
-}
-
-.modal-content {
-  background-color: black;
-  color: white;
-  margin: 15% auto;
-  padding: 20px;
-  border-radius: 10px;
-  width: 40%;
-  text-align: center;
-  position: relative;
-  animation-name: mymove;
-  animation-duration: 2s;
-}
-@keyframes mymove {
-  0% {
-    top: 100px;
-  }
-  25% {
-    top: 0px;
-  }
 }
