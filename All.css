@@ -207,6 +207,7 @@ nav a.active {
   /* margin-top: 4rem; */
   /* margin-left: 5rem; */
   margin-right: 5rem;
+  border-radius: 20px;
 }
 
 .background-slider-me .slide {
@@ -395,3 +396,5 @@ footer {
 textarea {
   color: white;
 }
+
+/* -----------------PERSONAL----------------- */
