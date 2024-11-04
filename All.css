@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster&family=Oswald:wght@200..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Lobster&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Fjalla+One&family=Lobster&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Fjalla+One&family=Lobster&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0%;
   padding: 0;
@@ -69,35 +69,6 @@ body {
   margin-top: 7em;
   margin-right: 10em;
   border-radius: 40%;
-}
-#cardsM {
-  text-align: left;
-  margin-left: 6rem;
-}
-.cardM {
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.397);
-  transition: 0.3s;
-  width: 40%;
-  height: 20%;
-  font-size: 20px;
-  text-align: justify;
-  font-family: poppins, sans-serif;
-  margin-top: 50px;
-  /* background-color: bisque; */
-  color: white;
-  border-radius: 1em;
-  display: inline-block;
-  /* gap: 2em; */
-  margin-bottom: 100px;
-}
-
-.cardM:hover {
-  box-shadow: 0 8px 16px 0 rgba(248, 236, 236, 0.529);
-  cursor: context-menu;
-}
-
-.containerM {
-  padding: 20px;
 }
 .social {
   text-align: center;
@@ -187,61 +158,95 @@ nav a.active {
 }
 
 /*-------------------- ABOUT----------------- */
+#cardsM {
+  text-align: left;
+  margin-left: 6rem;
+  margin-top: 5em;
+}
+.cardM {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.397);
+  transition: 0.3s;
+  width: 80%;
+  height: 20%;
+  font-size: 20px;
+  text-align: justify;
+  font-family: poppins, sans-serif;
+  margin-top: 50px;
+  /* background-color: bisque; */
+  color: white;
+  border-radius: 1em;
+  /* display: inline-block; */
+  /* gap: 2em; */
+  margin-bottom: 100px;
+}
 
-.content-container {
+.cardM:hover {
+  box-shadow: 0 8px 16px 0 rgba(248, 236, 236, 0.529);
+  cursor: context-menu;
+}
+
+.containerM {
+  padding: 20px;
+}
+/* .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.img-me {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.background-slider {
+.background-slider-me {
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
   width: 600px;
   height: 600px;
-  margin-top: 4rem;
-  margin-left: 5rem;
+  /* margin-top: 4rem; */
+  /* margin-left: 5rem; */
+  margin-right: 5rem;
 }
 
-.background-slider .slide {
+.background-slider-me .slide {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   height: 100%;
   background-size: cover;
   background-position: center;
-  animation: background-slider 12.5s infinite;
+  animation: background-slider-me 12.5s infinite;
 }
 
-.background-slider .slide:nth-child(1) {
+.background-slider-me .slide:nth-child(1) {
   background-image: url("img/img1.png");
   animation-delay: 0s;
 }
 
-.background-slider .slide:nth-child(2) {
+.background-slider-me .slide:nth-child(2) {
   background-image: url("img/img2.jpg");
   animation-delay: -2.5s;
 }
 
-.background-slider .slide:nth-child(3) {
+.background-slider-me .slide:nth-child(3) {
   background-image: url("img/img3.jpg");
   animation-delay: -5s;
 }
 
-.background-slider .slide:nth-child(4) {
+.background-slider-me .slide:nth-child(4) {
   background-image: url("img/img4.jpg");
   animation-delay: -7.5s;
 }
 
-.background-slider .slide:nth-child(5) {
+.background-slider-me .slide:nth-child(5) {
   background-image: url("img/img5.jpg");
   animation-delay: -10s;
 }
 
-@keyframes background-slider {
+@keyframes background-slider-me {
   0%,
   16%,
   100% {
