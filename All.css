@@ -517,19 +517,29 @@ textarea {
   transform: rotateY(180deg);
 }
 
+.container-p {
+  padding: 20px;
+}
+#cards-p {
+  text-align: center;
+  justify-content: space-between;
+}
 .card-p {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.397);
   transition: 0.3s;
-  width: 90%;
+  width: 30%;
   height: 20%;
-  margin-top: 2rem;
-  margin-left: 5rem;
+  font-size: 15px;
+  text-align: justify;
+  font-family: poppins, sans-serif;
+  margin-top: 50px;
+  color: white;
+  border-radius: 1em;
+  display: inline-block;
+  margin-bottom: 100px;
 }
 
 .card-p:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container-p {
-  padding: 10px;
+  box-shadow: 0 8px 16px 0 rgba(248, 236, 236, 0.529);
+  cursor: context-menu;
 }
