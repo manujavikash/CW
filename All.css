@@ -398,3 +398,9 @@ textarea {
 }
 
 /* -----------------PERSONAL----------------- */
+.heading {
+  color: white;
+  margin-top: 3em;
+  text-align: center;
+  font-size: 40px;
+}
