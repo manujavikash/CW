@@ -619,3 +619,24 @@ input[type="submit"]:hover {
   margin-left: 9em;
   margin-bottom: 11em;
 }
+
+.modal-content {
+  background-color: black;
+  color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+}
+@keyframes mymove {
+  0% {
+    top: 100px;
+  }
+  25% {
+    top: 0px;
+  }
+}
