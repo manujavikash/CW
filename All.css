@@ -54,12 +54,15 @@ body {
   margin-left: 1em;
   font-size: 35px;
   font-family: sans-serif;
+  justify-content: space-between;
+  display: flex;
 }
-/* .img {
+.img {
   position: relative;
   margin-right: 1rem;
   margin-top: 1rem;
-} */
+  display: inline;
+}
 #cardsM {
   text-align: left;
   margin-left: 6rem;
@@ -89,6 +92,17 @@ body {
 .containerM {
   padding: 20px;
 }
+#imgcontainer {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+
+/* .img {
+  border-radius: 40%;
+  display: inline;
+  position: flex;
+} */
 .social {
   text-align: center;
 }
