@@ -761,8 +761,8 @@ hr {
 }
 
 .flip-card {
-  width: 400px; /* Default width */
-  height: 400px; /* Default height */
+  width: 400px;
+  height: 400px;
   perspective: 1000px;
   margin-top: 4em;
 }
@@ -824,7 +824,7 @@ hr {
   background-color: whitesmoke;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.397);
   transition: 0.3s;
-  width: 60%; /* Default width */
+  width: 60%;
   height: 30%;
   font-size: 15px;
   text-align: justify;
@@ -844,14 +844,14 @@ hr {
 /* Media Query for Responsive Design */
 @media screen and (max-width: 900px) {
   .heading {
-    font-size: 30px; /* Smaller font size for smaller screens */
-    margin-top: 2em; /* Adjusted top margin */
+    font-size: 30px;
+    margin-top: 2em;
   }
 
   .content-container {
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    flex-direction: column; /* Stack content vertically */
-    align-items: center; /* Center align items */
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   .background-slider,
@@ -870,7 +870,7 @@ hr {
 
   .card-p {
     width: 90%;
-    margin: 10px auto; /* Center align cards */
+    margin: 10px auto;
   }
 
   hr {
@@ -925,4 +925,26 @@ input[type="submit"]:hover {
   width: 80%;
   margin-left: 9em;
   margin-bottom: 11em;
+}
+
+@media screen and (max-width: 900px) {
+  .form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 18rem;
+    margin-bottom: 5em;
+  }
+
+  input[type="submit"] {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  input[type="text"],
+  select {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
 }
