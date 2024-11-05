@@ -59,10 +59,10 @@ body {
   text-transform: uppercase;
 }
 .both {
-  display: flex; /* Make the container a flexbox */
-  align-items: center; /* Align items vertically at the center */
-  justify-content: space-between; /* Space out the items */
-  gap: 1rem; /* Add some space between the text and image */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 1rem; 
   margin-top: 8rem;
   position: relative;
   animation-name: mymove;
@@ -170,8 +170,8 @@ ul a::after {
   background-color: red;
 }
 ul a:focus {
-  outline: 2px solid #f0c040; /* Add focus outline */
-  background-color: rgba(240, 192, 64, 0.2); /* Light background on focus */
+  outline: 2px solid #f0c040; 
+  background-color: rgba(240, 192, 64, 0.2); 
 }
 
 ul a:hover {
@@ -206,11 +206,8 @@ nav a.active {
   text-align: justify;
   font-family: poppins, sans-serif;
   margin-top: 50px;
-  /* background-color: bisque; */
   color: white;
-  border-radius: 1em;
-  /* display: inline-block; */
-  /* gap: 2em; */
+  border-radius: 1em;  /* Rounded Corners */
   margin-bottom: 100px;
 }
 
@@ -257,27 +254,27 @@ nav a.active {
 }
 
 .background-slider-me .slide:nth-child(1) {
-  background-image: url("img/img1.jpg");
+  background-image: url("img/1.jpeg");
   animation-delay: 0s;
 }
 
 .background-slider-me .slide:nth-child(2) {
-  background-image: url("img/img2.jpg");
+  background-image: url("img/2.jpeg");
   animation-delay: -2.5s;
 }
 
 .background-slider-me .slide:nth-child(3) {
-  background-image: url("img/img3.jpg");
+  background-image: url("img/3.jpeg");
   animation-delay: -5s;
 }
 
 .background-slider-me .slide:nth-child(4) {
-  background-image: url("img/img4.jpg");
+  background-image: url("img/4.jpeg");
   animation-delay: -7.5s;
 }
 
 .background-slider-me .slide:nth-child(5) {
-  background-image: url("img/img5.jpg");
+  background-image: url("img/5.jpeg");
   animation-delay: -10s;
 }
 
@@ -597,13 +594,13 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-/* Validity pseudo class */
-input:valid {
+
+input:valid { /* Validity pseudo class */
   border: 3px solid green;
 }
 
 input:invalid {
-  border: 2px solid red;
+  border: 2px solid red; /* border */
 }
 input[type="submit"] {
   width: 100%;
@@ -623,12 +620,12 @@ input[type="submit"]:hover {
 
 .form {
   border-radius: 5px;
-  /* gradient */
-  background: linear-gradient(
+  
+  background: linear-gradient( /* gradient */
     to right,
     #3498db,
     #27e1e1
-  ); /* Gradient from blue to green */
+  ); 
   padding: 20px;
   margin-top: 10rem;
   width: 80%;
