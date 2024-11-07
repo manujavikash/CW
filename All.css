@@ -357,32 +357,32 @@ nav a.active {
 /* Media Query for Responsive Design */
 @media screen and (max-width: 900px) {
   #me {
-    font-size: 40px; /* Adjust font size for smaller screens */
+    font-size: 40px; 
     margin-top: 6em;
   }
 
   #cardsM {
-    margin-left: 1rem; /* Reduce left margin for smaller screens */
-    margin-top: 2em; /* Adjust margin for smaller screens */
-    text-align: center; /* Center text on smaller screens */
+    margin-left: 1rem;
+    margin-top: 2em; 
+    text-align: center; 
   }
 
   .cardM {
-    width: 90%; /* Adjust card width for smaller screens */
-    margin: 20px auto; /* Center cards with auto margins */
-    height: auto; /* Ensure cards adapt to content height */
+    width: 90%; 
+    margin: 20px auto; 
+    height: auto; 
   }
 
   .background-slider-me {
-    width: 80%; /* Full width for smaller screens */
-    height: 300px; /* Adjust height for better proportion */
-    margin-right: 0; /* Remove margin on the right */
-    border-radius: 15px; /* Slightly less rounded corners */
+    width: 80%; 
+    height: 300px; 
+    margin-right: 0; 
+    border-radius: 15px; 
   }
 
   .img-me {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center; /* Center align items */
+    flex-direction: column; 
+    align-items: center; 
   }
 }
 
